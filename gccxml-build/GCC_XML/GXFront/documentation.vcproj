@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="documentation"
+	ProjectGUID="{AFBB2D52-E8C9-401C-9E1B-09F4B7453329}"
+	Keyword="Win32Proj"
+	TargetFrameworkVersion="0"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			IntermediateDirectory="documentation.dir\Debug"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="Q:\Kitware\gccxml-build\GCC_XML\GXFront;Q:\Kitware\gccxml-build\GCC_XML;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
+			IntermediateDirectory="documentation.dir\Release"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="Q:\Kitware\gccxml-build\GCC_XML\GXFront;Q:\Kitware\gccxml-build\GCC_XML;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			IntermediateDirectory="documentation.dir\MinSizeRel"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="Q:\Kitware\gccxml-build\GCC_XML\GXFront;Q:\Kitware\gccxml-build\GCC_XML;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			IntermediateDirectory="documentation.dir\RelWithDebInfo"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="Q:\Kitware\gccxml-build\GCC_XML\GXFront;Q:\Kitware\gccxml-build\GCC_XML;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="CMake Rules"
+			>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC_XML\doc\Copyright.txt.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating ../doc/Copyright.txt"
+						CommandLine="..\..\bin\Debug\gccxml.exe --copyright &gt; Q:/Kitware/gccxml-build/GCC_XML/doc/Copyright.txt&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="Q:\Kitware\gccxml-build\bin\Debug\gccxml.exe;"
+						Outputs="Q:\Kitware\gccxml-build\GCC_XML\doc\Copyright.txt"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating ../doc/Copyright.txt"
+						CommandLine="..\..\bin\Release\gccxml.exe --copyright &gt; Q:/Kitware/gccxml-build/GCC_XML/doc/Copyright.txt&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="Q:\Kitware\gccxml-build\bin\Release\gccxml.exe;"
+						Outputs="Q:\Kitware\gccxml-build\GCC_XML\doc\Copyright.txt"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating ../doc/Copyright.txt"
+						CommandLine="..\..\bin\MinSizeRel\gccxml.exe --copyright &gt; Q:/Kitware/gccxml-build/GCC_XML/doc/Copyright.txt&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="Q:\Kitware\gccxml-build\bin\MinSizeRel\gccxml.exe;"
+						Outputs="Q:\Kitware\gccxml-build\GCC_XML\doc\Copyright.txt"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating ../doc/Copyright.txt"
+						CommandLine="..\..\bin\RelWithDebInfo\gccxml.exe --copyright &gt; Q:/Kitware/gccxml-build/GCC_XML/doc/Copyright.txt&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="Q:\Kitware\gccxml-build\bin\RelWithDebInfo\gccxml.exe;"
+						Outputs="Q:\Kitware\gccxml-build\GCC_XML\doc\Copyright.txt"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC_XML\GXFront\CMakeFiles\documentation.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description=""
+						CommandLine=""
+						AdditionalDependencies="Q:\Kitware\gccxml-build\GCC_XML\doc\gccxml.1;Q:\Kitware\gccxml-build\GCC_XML\doc\gccxml.txt;Q:\Kitware\gccxml-build\GCC_XML\doc\gccxml.html;Q:\Kitware\gccxml-build\GCC_XML\doc\Copyright.txt;"
+						Outputs="Q:\Kitware\gccxml-build\GCC_XML\GXFront\CMakeFiles\documentation"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description=""
+						CommandLine=""
+						AdditionalDependencies="Q:\Kitware\gccxml-build\GCC_XML\doc\gccxml.1;Q:\Kitware\gccxml-build\GCC_XML\doc\gccxml.txt;Q:\Kitware\gccxml-build\GCC_XML\doc\gccxml.html;Q:\Kitware\gccxml-build\GCC_XML\doc\Copyright.txt;"
+						Outputs="Q:\Kitware\gccxml-build\GCC_XML\GXFront\CMakeFiles\documentation"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description=""
+						CommandLine=""
+						AdditionalDependencies="Q:\Kitware\gccxml-build\GCC_XML\doc\gccxml.1;Q:\Kitware\gccxml-build\GCC_XML\doc\gccxml.txt;Q:\Kitware\gccxml-build\GCC_XML\doc\gccxml.html;Q:\Kitware\gccxml-build\GCC_XML\doc\Copyright.txt;"
+						Outputs="Q:\Kitware\gccxml-build\GCC_XML\GXFront\CMakeFiles\documentation"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description=""
+						CommandLine=""
+						AdditionalDependencies="Q:\Kitware\gccxml-build\GCC_XML\doc\gccxml.1;Q:\Kitware\gccxml-build\GCC_XML\doc\gccxml.txt;Q:\Kitware\gccxml-build\GCC_XML\doc\gccxml.html;Q:\Kitware\gccxml-build\GCC_XML\doc\Copyright.txt;"
+						Outputs="Q:\Kitware\gccxml-build\GCC_XML\GXFront\CMakeFiles\documentation"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC_XML\doc\gccxml.1.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating ../doc/gccxml.1"
+						CommandLine="..\..\bin\Debug\gccxml.exe --man &gt; Q:/Kitware/gccxml-build/GCC_XML/doc/gccxml.1&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="Q:\Kitware\gccxml-build\bin\Debug\gccxml.exe;"
+						Outputs="Q:\Kitware\gccxml-build\GCC_XML\doc\gccxml.1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating ../doc/gccxml.1"
+						CommandLine="..\..\bin\Release\gccxml.exe --man &gt; Q:/Kitware/gccxml-build/GCC_XML/doc/gccxml.1&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="Q:\Kitware\gccxml-build\bin\Release\gccxml.exe;"
+						Outputs="Q:\Kitware\gccxml-build\GCC_XML\doc\gccxml.1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating ../doc/gccxml.1"
+						CommandLine="..\..\bin\MinSizeRel\gccxml.exe --man &gt; Q:/Kitware/gccxml-build/GCC_XML/doc/gccxml.1&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="Q:\Kitware\gccxml-build\bin\MinSizeRel\gccxml.exe;"
+						Outputs="Q:\Kitware\gccxml-build\GCC_XML\doc\gccxml.1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating ../doc/gccxml.1"
+						CommandLine="..\..\bin\RelWithDebInfo\gccxml.exe --man &gt; Q:/Kitware/gccxml-build/GCC_XML/doc/gccxml.1&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="Q:\Kitware\gccxml-build\bin\RelWithDebInfo\gccxml.exe;"
+						Outputs="Q:\Kitware\gccxml-build\GCC_XML\doc\gccxml.1"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC_XML\doc\gccxml.html.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating ../doc/gccxml.html"
+						CommandLine="..\..\bin\Debug\gccxml.exe --help-html &gt; Q:/Kitware/gccxml-build/GCC_XML/doc/gccxml.html&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="Q:\Kitware\gccxml-build\bin\Debug\gccxml.exe;"
+						Outputs="Q:\Kitware\gccxml-build\GCC_XML\doc\gccxml.html"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating ../doc/gccxml.html"
+						CommandLine="..\..\bin\Release\gccxml.exe --help-html &gt; Q:/Kitware/gccxml-build/GCC_XML/doc/gccxml.html&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="Q:\Kitware\gccxml-build\bin\Release\gccxml.exe;"
+						Outputs="Q:\Kitware\gccxml-build\GCC_XML\doc\gccxml.html"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating ../doc/gccxml.html"
+						CommandLine="..\..\bin\MinSizeRel\gccxml.exe --help-html &gt; Q:/Kitware/gccxml-build/GCC_XML/doc/gccxml.html&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="Q:\Kitware\gccxml-build\bin\MinSizeRel\gccxml.exe;"
+						Outputs="Q:\Kitware\gccxml-build\GCC_XML\doc\gccxml.html"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating ../doc/gccxml.html"
+						CommandLine="..\..\bin\RelWithDebInfo\gccxml.exe --help-html &gt; Q:/Kitware/gccxml-build/GCC_XML/doc/gccxml.html&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="Q:\Kitware\gccxml-build\bin\RelWithDebInfo\gccxml.exe;"
+						Outputs="Q:\Kitware\gccxml-build\GCC_XML\doc\gccxml.html"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC_XML\doc\gccxml.txt.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating ../doc/gccxml.txt"
+						CommandLine="..\..\bin\Debug\gccxml.exe --help &gt; Q:/Kitware/gccxml-build/GCC_XML/doc/gccxml.txt&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="Q:\Kitware\gccxml-build\bin\Debug\gccxml.exe;"
+						Outputs="Q:\Kitware\gccxml-build\GCC_XML\doc\gccxml.txt"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating ../doc/gccxml.txt"
+						CommandLine="..\..\bin\Release\gccxml.exe --help &gt; Q:/Kitware/gccxml-build/GCC_XML/doc/gccxml.txt&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="Q:\Kitware\gccxml-build\bin\Release\gccxml.exe;"
+						Outputs="Q:\Kitware\gccxml-build\GCC_XML\doc\gccxml.txt"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating ../doc/gccxml.txt"
+						CommandLine="..\..\bin\MinSizeRel\gccxml.exe --help &gt; Q:/Kitware/gccxml-build/GCC_XML/doc/gccxml.txt&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="Q:\Kitware\gccxml-build\bin\MinSizeRel\gccxml.exe;"
+						Outputs="Q:\Kitware\gccxml-build\GCC_XML\doc\gccxml.txt"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating ../doc/gccxml.txt"
+						CommandLine="..\..\bin\RelWithDebInfo\gccxml.exe --help &gt; Q:/Kitware/gccxml-build/GCC_XML/doc/gccxml.txt&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="Q:\Kitware\gccxml-build\bin\RelWithDebInfo\gccxml.exe;"
+						Outputs="Q:\Kitware\gccxml-build\GCC_XML\doc\gccxml.txt"
+					/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<File
+			RelativePath="Q:\Kitware\gccxml\GCC_XML\GXFront\CMakeLists.txt"
+			>
+			<FileConfiguration
+				Name="Debug|Win32"
+				>
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule Q:/Kitware/gccxml/GCC_XML/GXFront/CMakeLists.txt"
+					CommandLine="T:\CMake\bin\cmake.exe -HQ:/Kitware/gccxml -BQ:/Kitware/gccxml-build --check-stamp-file Q:\Kitware\gccxml-build\GCC_XML\GXFront\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+					AdditionalDependencies="Q:\Kitware\gccxml\GCC_XML\GXFront\CMakeLists.txt;Q:\Kitware\gccxml\GCC_XML\GXFront\CMakeLists.txt;"
+					Outputs="Q:\Kitware\gccxml-build\GCC_XML\GXFront\CMakeFiles\generate.stamp"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule Q:/Kitware/gccxml/GCC_XML/GXFront/CMakeLists.txt"
+					CommandLine="T:\CMake\bin\cmake.exe -HQ:/Kitware/gccxml -BQ:/Kitware/gccxml-build --check-stamp-file Q:\Kitware\gccxml-build\GCC_XML\GXFront\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+					AdditionalDependencies="Q:\Kitware\gccxml\GCC_XML\GXFront\CMakeLists.txt;Q:\Kitware\gccxml\GCC_XML\GXFront\CMakeLists.txt;"
+					Outputs="Q:\Kitware\gccxml-build\GCC_XML\GXFront\CMakeFiles\generate.stamp"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="MinSizeRel|Win32"
+				>
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule Q:/Kitware/gccxml/GCC_XML/GXFront/CMakeLists.txt"
+					CommandLine="T:\CMake\bin\cmake.exe -HQ:/Kitware/gccxml -BQ:/Kitware/gccxml-build --check-stamp-file Q:\Kitware\gccxml-build\GCC_XML\GXFront\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+					AdditionalDependencies="Q:\Kitware\gccxml\GCC_XML\GXFront\CMakeLists.txt;Q:\Kitware\gccxml\GCC_XML\GXFront\CMakeLists.txt;"
+					Outputs="Q:\Kitware\gccxml-build\GCC_XML\GXFront\CMakeFiles\generate.stamp"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="RelWithDebInfo|Win32"
+				>
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule Q:/Kitware/gccxml/GCC_XML/GXFront/CMakeLists.txt"
+					CommandLine="T:\CMake\bin\cmake.exe -HQ:/Kitware/gccxml -BQ:/Kitware/gccxml-build --check-stamp-file Q:\Kitware\gccxml-build\GCC_XML\GXFront\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+					AdditionalDependencies="Q:\Kitware\gccxml\GCC_XML\GXFront\CMakeLists.txt;Q:\Kitware\gccxml\GCC_XML\GXFront\CMakeLists.txt;"
+					Outputs="Q:\Kitware\gccxml-build\GCC_XML\GXFront\CMakeFiles\generate.stamp"
+				/>
+			</FileConfiguration>
+		</File>
+		<File
+			RelativePath="Q:\Kitware\gccxml-build\GCC_XML\GXFront\CMakeFiles\documentation"
+			>
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

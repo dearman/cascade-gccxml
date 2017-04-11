@@ -1,0 +1,1811 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="backend"
+	ProjectGUID="{075A2E24-19FE-474D-867C-4CA271A1223A}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Q:\Kitware\gccxml-build\GCC\gcc\Debug"
+			IntermediateDirectory="backend.dir\Debug"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="Q:\Kitware\gccxml-build\GCC\gcc;Q:\Kitware\gccxml\GCC\gcc\config;Q:\Kitware\gccxml\GCC\gcc;Q:\Kitware\gccxml\GCC\libdecnumber;Q:\Kitware\gccxml\GCC\libcpp\include;Q:\Kitware\gccxml\GCC\include;"
+				AssemblerListingLocation="Debug/"
+				BasicRuntimeChecks="3"
+				CompileAs="1"
+				DebugInformationFormat="3"
+				ExceptionHandling="0"
+				InlineFunctionExpansion="0"
+				Optimization="0"
+				RuntimeLibrary="3"
+				WarningLevel="0"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;ALMOST_STDC;IN_GCC;HAVE_CONFIG_H;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="Q:\Kitware\gccxml-build\GCC\gcc;Q:\Kitware\gccxml\GCC\gcc\config;Q:\Kitware\gccxml\GCC\gcc;Q:\Kitware\gccxml\GCC\libdecnumber;Q:\Kitware\gccxml\GCC\libcpp\include;Q:\Kitware\gccxml\GCC\include;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;ALMOST_STDC;IN_GCC;HAVE_CONFIG_H;CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="Q:\Kitware\gccxml-build\GCC\gcc;Q:\Kitware\gccxml\GCC\gcc\config;Q:\Kitware\gccxml\GCC\gcc;Q:\Kitware\gccxml\GCC\libdecnumber;Q:\Kitware\gccxml\GCC\libcpp\include;Q:\Kitware\gccxml\GCC\include;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="Q:\Kitware\gccxml-build\GCC\gcc\Debug\backend.lib"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Q:\Kitware\gccxml-build\GCC\gcc\Release"
+			IntermediateDirectory="backend.dir\Release"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="Q:\Kitware\gccxml-build\GCC\gcc;Q:\Kitware\gccxml\GCC\gcc\config;Q:\Kitware\gccxml\GCC\gcc;Q:\Kitware\gccxml\GCC\libdecnumber;Q:\Kitware\gccxml\GCC\libcpp\include;Q:\Kitware\gccxml\GCC\include;"
+				AssemblerListingLocation="Release/"
+				CompileAs="1"
+				ExceptionHandling="0"
+				InlineFunctionExpansion="2"
+				Optimization="2"
+				RuntimeLibrary="2"
+				WarningLevel="0"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;ALMOST_STDC;IN_GCC;HAVE_CONFIG_H;CMAKE_INTDIR=\&quot;Release\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="Q:\Kitware\gccxml-build\GCC\gcc;Q:\Kitware\gccxml\GCC\gcc\config;Q:\Kitware\gccxml\GCC\gcc;Q:\Kitware\gccxml\GCC\libdecnumber;Q:\Kitware\gccxml\GCC\libcpp\include;Q:\Kitware\gccxml\GCC\include;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;ALMOST_STDC;IN_GCC;HAVE_CONFIG_H;CMAKE_INTDIR=\&quot;Release\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="Q:\Kitware\gccxml-build\GCC\gcc;Q:\Kitware\gccxml\GCC\gcc\config;Q:\Kitware\gccxml\GCC\gcc;Q:\Kitware\gccxml\GCC\libdecnumber;Q:\Kitware\gccxml\GCC\libcpp\include;Q:\Kitware\gccxml\GCC\include;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="Q:\Kitware\gccxml-build\GCC\gcc\Release\backend.lib"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			OutputDirectory="Q:\Kitware\gccxml-build\GCC\gcc\MinSizeRel"
+			IntermediateDirectory="backend.dir\MinSizeRel"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="Q:\Kitware\gccxml-build\GCC\gcc;Q:\Kitware\gccxml\GCC\gcc\config;Q:\Kitware\gccxml\GCC\gcc;Q:\Kitware\gccxml\GCC\libdecnumber;Q:\Kitware\gccxml\GCC\libcpp\include;Q:\Kitware\gccxml\GCC\include;"
+				AssemblerListingLocation="MinSizeRel/"
+				CompileAs="1"
+				ExceptionHandling="0"
+				InlineFunctionExpansion="1"
+				Optimization="1"
+				RuntimeLibrary="2"
+				WarningLevel="0"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;ALMOST_STDC;IN_GCC;HAVE_CONFIG_H;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="Q:\Kitware\gccxml-build\GCC\gcc;Q:\Kitware\gccxml\GCC\gcc\config;Q:\Kitware\gccxml\GCC\gcc;Q:\Kitware\gccxml\GCC\libdecnumber;Q:\Kitware\gccxml\GCC\libcpp\include;Q:\Kitware\gccxml\GCC\include;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;ALMOST_STDC;IN_GCC;HAVE_CONFIG_H;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="Q:\Kitware\gccxml-build\GCC\gcc;Q:\Kitware\gccxml\GCC\gcc\config;Q:\Kitware\gccxml\GCC\gcc;Q:\Kitware\gccxml\GCC\libdecnumber;Q:\Kitware\gccxml\GCC\libcpp\include;Q:\Kitware\gccxml\GCC\include;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="Q:\Kitware\gccxml-build\GCC\gcc\MinSizeRel\backend.lib"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			OutputDirectory="Q:\Kitware\gccxml-build\GCC\gcc\RelWithDebInfo"
+			IntermediateDirectory="backend.dir\RelWithDebInfo"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="Q:\Kitware\gccxml-build\GCC\gcc;Q:\Kitware\gccxml\GCC\gcc\config;Q:\Kitware\gccxml\GCC\gcc;Q:\Kitware\gccxml\GCC\libdecnumber;Q:\Kitware\gccxml\GCC\libcpp\include;Q:\Kitware\gccxml\GCC\include;"
+				AssemblerListingLocation="RelWithDebInfo/"
+				CompileAs="1"
+				DebugInformationFormat="3"
+				ExceptionHandling="0"
+				InlineFunctionExpansion="1"
+				Optimization="2"
+				RuntimeLibrary="2"
+				WarningLevel="0"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;ALMOST_STDC;IN_GCC;HAVE_CONFIG_H;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="Q:\Kitware\gccxml-build\GCC\gcc;Q:\Kitware\gccxml\GCC\gcc\config;Q:\Kitware\gccxml\GCC\gcc;Q:\Kitware\gccxml\GCC\libdecnumber;Q:\Kitware\gccxml\GCC\libcpp\include;Q:\Kitware\gccxml\GCC\include;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;ALMOST_STDC;IN_GCC;HAVE_CONFIG_H;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="Q:\Kitware\gccxml-build\GCC\gcc;Q:\Kitware\gccxml\GCC\gcc\config;Q:\Kitware\gccxml\GCC\gcc;Q:\Kitware\gccxml\GCC\libdecnumber;Q:\Kitware\gccxml\GCC\libcpp\include;Q:\Kitware\gccxml\GCC\include;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="Q:\Kitware\gccxml-build\GCC\gcc\RelWithDebInfo\backend.lib"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\CMakeLists.txt">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule Q:/Kitware/gccxml/GCC/gcc/CMakeLists.txt"
+					CommandLine="T:\CMake\bin\cmake.exe -HQ:/Kitware/gccxml -BQ:/Kitware/gccxml-build --check-stamp-file Q:\Kitware\gccxml-build\GCC\gcc\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml\GCC\gcc\CMakeLists.txt;Q:\Kitware\gccxml\GCC\config_cmake\gcc_make_config_h.cmake;Q:\Kitware\gccxml-build\GCC\config_cmake\gcc_platform.cmake;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gtyp-gen.h.in;Q:\Kitware\gccxml\GCC\gcc\CMakeLists.txt;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule Q:/Kitware/gccxml/GCC/gcc/CMakeLists.txt"
+					CommandLine="T:\CMake\bin\cmake.exe -HQ:/Kitware/gccxml -BQ:/Kitware/gccxml-build --check-stamp-file Q:\Kitware\gccxml-build\GCC\gcc\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml\GCC\gcc\CMakeLists.txt;Q:\Kitware\gccxml\GCC\config_cmake\gcc_make_config_h.cmake;Q:\Kitware\gccxml-build\GCC\config_cmake\gcc_platform.cmake;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gtyp-gen.h.in;Q:\Kitware\gccxml\GCC\gcc\CMakeLists.txt;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule Q:/Kitware/gccxml/GCC/gcc/CMakeLists.txt"
+					CommandLine="T:\CMake\bin\cmake.exe -HQ:/Kitware/gccxml -BQ:/Kitware/gccxml-build --check-stamp-file Q:\Kitware\gccxml-build\GCC\gcc\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml\GCC\gcc\CMakeLists.txt;Q:\Kitware\gccxml\GCC\config_cmake\gcc_make_config_h.cmake;Q:\Kitware\gccxml-build\GCC\config_cmake\gcc_platform.cmake;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gtyp-gen.h.in;Q:\Kitware\gccxml\GCC\gcc\CMakeLists.txt;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule Q:/Kitware/gccxml/GCC/gcc/CMakeLists.txt"
+					CommandLine="T:\CMake\bin\cmake.exe -HQ:/Kitware/gccxml -BQ:/Kitware/gccxml-build --check-stamp-file Q:\Kitware\gccxml-build\GCC\gcc\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml\GCC\gcc\CMakeLists.txt;Q:\Kitware\gccxml\GCC\config_cmake\gcc_make_config_h.cmake;Q:\Kitware\gccxml-build\GCC\config_cmake\gcc_platform.cmake;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gtyp-gen.h.in;Q:\Kitware\gccxml\GCC\gcc\CMakeLists.txt;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+			</File>
+		<Filter
+			Name="Source Files"
+			Filter="">
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\double-int.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-chrec.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-scalar-evolution.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-data-ref.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-cfg.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-dfa.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-eh.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssa.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-optimize.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-gimple.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\gimplify.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-pretty-print.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-into-ssa.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-outof-ssa.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssa-ccp.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-vn.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssa-uncprop.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssa-dce.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssa-copy.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-nrv.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssa-copyrename.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssa-pre.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssa-live.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssa-operands.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssa-alias.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssa-phiopt.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssa-forwprop.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-nested.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssa-dse.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssa-dom.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\domwalk.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-tailcall.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\gimple-low.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-iterator.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\omp-low.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-phinodes.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssanames.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-sra.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-complex.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-vect-generic.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssa-loop.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssa-loop-niter.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssa-loop-manip.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssa-threadupdate.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssa-threadedge.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-vectorizer.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-vect-analyze.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-vect-transform.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-vect-patterns.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssa-loop-prefetch.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssa-loop-ivcanon.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssa-propagate.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssa-address.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssa-math-opts.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssa-loop-ivopts.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-if-conv.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssa-loop-unswitch.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\alias.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\bb-reorder.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\bitmap.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\builtins.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\caller-save.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\calls.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\cfg.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\cfganal.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\cfgbuild.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\cfgcleanup.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\cfglayout.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\cfgloop.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\cfgloopanal.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\cfgloopmanip.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\loop-init.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\loop-unswitch.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\loop-unroll.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\cfgrtl.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\combine.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\conflict.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\convert.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\coverage.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\cse.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\cselib.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\dbxout.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\ddg.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssa-loop-ch.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\loop-invariant.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssa-loop-im.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\debug.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\df-core.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\df-problems.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\df-scan.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\dfp.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\diagnostic.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\dojump.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\dominance.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\loop-doloop.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\dwarf2asm.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\dwarf2out.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\emit-rtl.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\except.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\explow.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\loop-iv.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\expmed.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\expr.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\final.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\flow.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\fold-const.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\function.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\gcse.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\genrtl.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\ggc-common.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\global.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\graph.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\haifa-sched.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\hooks.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\ifcvt.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\integrate.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\intl.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\jump.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\langhooks.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\lcm.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\lists.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\local-alloc.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\mode-switching.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\modulo-sched.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\optabs.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\options.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\opts.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\opts-common.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\params.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\postreload.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\postreload-gcse.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\predict.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\pointer-set.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\backend-print-rtl.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\print-tree.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\profile.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\value-prof.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\var-tracking.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\real.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\recog.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\reg-stack.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\regclass.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\regmove.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\regrename.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\reload.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\reload1.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\reorg.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\resource.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\backend-rtl.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\rtlanal.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\rtl-error.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\sbitmap.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\sched-deps.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\sched-ebb.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\sched-rgn.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\sched-vis.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\sdbout.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\see.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\simplify-rtx.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\sreal.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\stmt.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\stor-layout.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\stringpool.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\struct-equiv.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\targhooks.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\timevar.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\toplev.c">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="TARGET_NAME=i686-pc-win32"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="TARGET_NAME=i686-pc-win32"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="TARGET_NAME=i686-pc-win32"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCLCompilerTool"
+					PreprocessorDefinitions="TARGET_NAME=i686-pc-win32"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tracer.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-dump.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\varasm.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\varray.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\backend-vec.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\version.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\vmsdbgout.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\xcoffout.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\alloc-pool.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\et-forest.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\cfghooks.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\bt-load.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\pretty-print.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\ggc-page.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\web.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\passes.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-profile.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\rtlhooks.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\cfgexpand.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\lambda-mat.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\lambda-trans.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\lambda-code.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-loop-linear.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssa-sink.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-vrp.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-stdarg.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-cfgcleanup.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssa-reassoc.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-ssa-structalias.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-object-size.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\rtl-factoring.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\config\i386\winnt.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\config\i386\winnt-stubs.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\config\i386\host-mingw32.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-inline.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\cgraph.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\cgraphunit.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\tree-nomudflap.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\ipa.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\ipa-inline.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\ipa-utils.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\ipa-reference.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\ipa-pure-const.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\ipa-type-escape.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\ipa-prop.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\ipa-cp.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\gtype-desc.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\insn-attrtab.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\insn-emit.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\insn-modes.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\insn-extract.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\insn-opinit.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\insn-output.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\insn-peep.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\insn-recog.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\insn-preds.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\insn-automata.c">
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="">
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\insn-flags.h">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\insn-config.h">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\insn-codes.h">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\insn-attr.h">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\genrtl.h">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\gcov-iov.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="CMake Rules"
+			Filter="">
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\genrtl.c.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating genrtl.c"
+					CommandLine="$(ConfigurationName)\gengenrtl.exe &gt; genrtl.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Debug\gengenrtl.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\genrtl.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating genrtl.c"
+					CommandLine="$(ConfigurationName)\gengenrtl.exe &gt; genrtl.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Release\gengenrtl.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\genrtl.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating genrtl.c"
+					CommandLine="$(ConfigurationName)\gengenrtl.exe &gt; genrtl.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\MinSizeRel\gengenrtl.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\genrtl.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating genrtl.c"
+					CommandLine="$(ConfigurationName)\gengenrtl.exe &gt; genrtl.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\RelWithDebInfo\gengenrtl.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\genrtl.c"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\options.c.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating options.c"
+					CommandLine="Q:\Kitware\gccxml\GCC\config_cmake\nawk.exe -f Q:/Kitware/gccxml/GCC/gcc/opt-functions.awk -f Q:/Kitware/gccxml/GCC/gcc/optc-gen.awk -v &quot;header_name=config.h system.h coretypes.h tm.h&quot; &lt; optionlist &gt; options.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml\GCC\gcc\opt-functions.awk;Q:\Kitware\gccxml\GCC\gcc\optc-gen.awk;Q:\Kitware\gccxml-build\GCC\gcc\optionlist;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\options.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating options.c"
+					CommandLine="Q:\Kitware\gccxml\GCC\config_cmake\nawk.exe -f Q:/Kitware/gccxml/GCC/gcc/opt-functions.awk -f Q:/Kitware/gccxml/GCC/gcc/optc-gen.awk -v &quot;header_name=config.h system.h coretypes.h tm.h&quot; &lt; optionlist &gt; options.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml\GCC\gcc\opt-functions.awk;Q:\Kitware\gccxml\GCC\gcc\optc-gen.awk;Q:\Kitware\gccxml-build\GCC\gcc\optionlist;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\options.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating options.c"
+					CommandLine="Q:\Kitware\gccxml\GCC\config_cmake\nawk.exe -f Q:/Kitware/gccxml/GCC/gcc/opt-functions.awk -f Q:/Kitware/gccxml/GCC/gcc/optc-gen.awk -v &quot;header_name=config.h system.h coretypes.h tm.h&quot; &lt; optionlist &gt; options.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml\GCC\gcc\opt-functions.awk;Q:\Kitware\gccxml\GCC\gcc\optc-gen.awk;Q:\Kitware\gccxml-build\GCC\gcc\optionlist;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\options.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating options.c"
+					CommandLine="Q:\Kitware\gccxml\GCC\config_cmake\nawk.exe -f Q:/Kitware/gccxml/GCC/gcc/opt-functions.awk -f Q:/Kitware/gccxml/GCC/gcc/optc-gen.awk -v &quot;header_name=config.h system.h coretypes.h tm.h&quot; &lt; optionlist &gt; options.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml\GCC\gcc\opt-functions.awk;Q:\Kitware\gccxml\GCC\gcc\optc-gen.awk;Q:\Kitware\gccxml-build\GCC\gcc\optionlist;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\options.c"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\gtype-desc.c.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating gtype-desc.c, gtype-desc.h"
+					CommandLine="$(ConfigurationName)\gengtype.exe&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Debug\gengtype.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\gtype-desc.c;Q:\Kitware\gccxml-build\GCC\gcc\gtype-desc.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating gtype-desc.c, gtype-desc.h"
+					CommandLine="$(ConfigurationName)\gengtype.exe&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Release\gengtype.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\gtype-desc.c;Q:\Kitware\gccxml-build\GCC\gcc\gtype-desc.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating gtype-desc.c, gtype-desc.h"
+					CommandLine="$(ConfigurationName)\gengtype.exe&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\MinSizeRel\gengtype.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\gtype-desc.c;Q:\Kitware\gccxml-build\GCC\gcc\gtype-desc.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating gtype-desc.c, gtype-desc.h"
+					CommandLine="$(ConfigurationName)\gengtype.exe&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\RelWithDebInfo\gengtype.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\gtype-desc.c;Q:\Kitware\gccxml-build\GCC\gcc\gtype-desc.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\insn-attrtab.c.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-attrtab.c"
+					CommandLine="$(ConfigurationName)\genattrtab.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-attrtab.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Debug\genattrtab.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-attrtab.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-attrtab.c"
+					CommandLine="$(ConfigurationName)\genattrtab.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-attrtab.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Release\genattrtab.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-attrtab.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-attrtab.c"
+					CommandLine="$(ConfigurationName)\genattrtab.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-attrtab.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\MinSizeRel\genattrtab.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-attrtab.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-attrtab.c"
+					CommandLine="$(ConfigurationName)\genattrtab.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-attrtab.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\RelWithDebInfo\genattrtab.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-attrtab.c"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\insn-emit.c.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-emit.c"
+					CommandLine="$(ConfigurationName)\genemit.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-emit.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Debug\genemit.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-emit.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-emit.c"
+					CommandLine="$(ConfigurationName)\genemit.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-emit.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Release\genemit.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-emit.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-emit.c"
+					CommandLine="$(ConfigurationName)\genemit.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-emit.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\MinSizeRel\genemit.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-emit.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-emit.c"
+					CommandLine="$(ConfigurationName)\genemit.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-emit.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\RelWithDebInfo\genemit.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-emit.c"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\insn-modes.c.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-modes.c"
+					CommandLine="$(ConfigurationName)\genmodes.exe &gt; insn-modes.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Debug\genmodes.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-modes.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-modes.c"
+					CommandLine="$(ConfigurationName)\genmodes.exe &gt; insn-modes.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Release\genmodes.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-modes.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-modes.c"
+					CommandLine="$(ConfigurationName)\genmodes.exe &gt; insn-modes.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\MinSizeRel\genmodes.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-modes.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-modes.c"
+					CommandLine="$(ConfigurationName)\genmodes.exe &gt; insn-modes.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\RelWithDebInfo\genmodes.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-modes.c"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\insn-extract.c.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-extract.c"
+					CommandLine="$(ConfigurationName)\genextract.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-extract.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Debug\genextract.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-extract.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-extract.c"
+					CommandLine="$(ConfigurationName)\genextract.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-extract.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Release\genextract.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-extract.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-extract.c"
+					CommandLine="$(ConfigurationName)\genextract.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-extract.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\MinSizeRel\genextract.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-extract.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-extract.c"
+					CommandLine="$(ConfigurationName)\genextract.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-extract.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\RelWithDebInfo\genextract.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-extract.c"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\insn-opinit.c.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-opinit.c"
+					CommandLine="$(ConfigurationName)\genopinit.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-opinit.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Debug\genopinit.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-opinit.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-opinit.c"
+					CommandLine="$(ConfigurationName)\genopinit.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-opinit.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Release\genopinit.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-opinit.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-opinit.c"
+					CommandLine="$(ConfigurationName)\genopinit.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-opinit.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\MinSizeRel\genopinit.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-opinit.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-opinit.c"
+					CommandLine="$(ConfigurationName)\genopinit.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-opinit.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\RelWithDebInfo\genopinit.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-opinit.c"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\insn-output.c.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-output.c"
+					CommandLine="$(ConfigurationName)\genoutput.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-output.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Debug\genoutput.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-output.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-output.c"
+					CommandLine="$(ConfigurationName)\genoutput.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-output.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Release\genoutput.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-output.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-output.c"
+					CommandLine="$(ConfigurationName)\genoutput.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-output.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\MinSizeRel\genoutput.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-output.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-output.c"
+					CommandLine="$(ConfigurationName)\genoutput.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-output.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\RelWithDebInfo\genoutput.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-output.c"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\insn-peep.c.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-peep.c"
+					CommandLine="$(ConfigurationName)\genpeep.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-peep.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Debug\genpeep.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-peep.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-peep.c"
+					CommandLine="$(ConfigurationName)\genpeep.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-peep.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Release\genpeep.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-peep.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-peep.c"
+					CommandLine="$(ConfigurationName)\genpeep.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-peep.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\MinSizeRel\genpeep.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-peep.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-peep.c"
+					CommandLine="$(ConfigurationName)\genpeep.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-peep.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\RelWithDebInfo\genpeep.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-peep.c"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\insn-recog.c.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-recog.c"
+					CommandLine="$(ConfigurationName)\genrecog.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-recog.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Debug\genrecog.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-recog.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-recog.c"
+					CommandLine="$(ConfigurationName)\genrecog.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-recog.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Release\genrecog.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-recog.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-recog.c"
+					CommandLine="$(ConfigurationName)\genrecog.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-recog.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\MinSizeRel\genrecog.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-recog.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-recog.c"
+					CommandLine="$(ConfigurationName)\genrecog.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-recog.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\RelWithDebInfo\genrecog.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-recog.c"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\insn-preds.c.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-preds.c"
+					CommandLine="$(ConfigurationName)\genpreds.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md &gt; insn-preds.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Debug\genpreds.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-preds.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-preds.c"
+					CommandLine="$(ConfigurationName)\genpreds.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md &gt; insn-preds.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Release\genpreds.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-preds.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-preds.c"
+					CommandLine="$(ConfigurationName)\genpreds.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md &gt; insn-preds.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\MinSizeRel\genpreds.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-preds.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-preds.c"
+					CommandLine="$(ConfigurationName)\genpreds.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md &gt; insn-preds.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\RelWithDebInfo\genpreds.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-preds.c"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\insn-automata.c.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-automata.c"
+					CommandLine="$(ConfigurationName)\genautomata.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-automata.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Debug\genautomata.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-automata.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-automata.c"
+					CommandLine="$(ConfigurationName)\genautomata.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-automata.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Release\genautomata.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-automata.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-automata.c"
+					CommandLine="$(ConfigurationName)\genautomata.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-automata.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\MinSizeRel\genautomata.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-automata.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-automata.c"
+					CommandLine="$(ConfigurationName)\genautomata.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-automata.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\RelWithDebInfo\genautomata.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-automata.c"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\insn-flags.h.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-flags.h"
+					CommandLine="$(ConfigurationName)\genflags.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-flags.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Debug\genflags.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-flags.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-flags.h"
+					CommandLine="$(ConfigurationName)\genflags.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-flags.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Release\genflags.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-flags.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-flags.h"
+					CommandLine="$(ConfigurationName)\genflags.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-flags.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\MinSizeRel\genflags.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-flags.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-flags.h"
+					CommandLine="$(ConfigurationName)\genflags.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-flags.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\RelWithDebInfo\genflags.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-flags.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\insn-config.h.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-config.h"
+					CommandLine="$(ConfigurationName)\genconfig.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-config.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Debug\genconfig.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-config.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-config.h"
+					CommandLine="$(ConfigurationName)\genconfig.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-config.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Release\genconfig.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-config.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-config.h"
+					CommandLine="$(ConfigurationName)\genconfig.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-config.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\MinSizeRel\genconfig.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-config.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-config.h"
+					CommandLine="$(ConfigurationName)\genconfig.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-config.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\RelWithDebInfo\genconfig.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-config.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\insn-codes.h.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-codes.h"
+					CommandLine="$(ConfigurationName)\gencodes.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-codes.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Debug\gencodes.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-codes.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-codes.h"
+					CommandLine="$(ConfigurationName)\gencodes.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-codes.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Release\gencodes.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-codes.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-codes.h"
+					CommandLine="$(ConfigurationName)\gencodes.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-codes.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\MinSizeRel\gencodes.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-codes.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-codes.h"
+					CommandLine="$(ConfigurationName)\gencodes.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-codes.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\RelWithDebInfo\gencodes.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-codes.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\insn-attr.h.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-attr.h"
+					CommandLine="$(ConfigurationName)\genattr.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-attr.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Debug\genattr.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-attr.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-attr.h"
+					CommandLine="$(ConfigurationName)\genattr.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-attr.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Release\genattr.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-attr.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-attr.h"
+					CommandLine="$(ConfigurationName)\genattr.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-attr.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\MinSizeRel\genattr.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-attr.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-attr.h"
+					CommandLine="$(ConfigurationName)\genattr.exe Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.md Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md &gt; insn-attr.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\RelWithDebInfo\genattr.exe;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.md;Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-attr.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\genrtl.h.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating genrtl.h"
+					CommandLine="$(ConfigurationName)\gengenrtl.exe -h &gt; genrtl.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Debug\gengenrtl.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\genrtl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating genrtl.h"
+					CommandLine="$(ConfigurationName)\gengenrtl.exe -h &gt; genrtl.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Release\gengenrtl.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\genrtl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating genrtl.h"
+					CommandLine="$(ConfigurationName)\gengenrtl.exe -h &gt; genrtl.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\MinSizeRel\gengenrtl.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\genrtl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating genrtl.h"
+					CommandLine="$(ConfigurationName)\gengenrtl.exe -h &gt; genrtl.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\RelWithDebInfo\gengenrtl.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\genrtl.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\gcov-iov.h.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating gcov-iov.h"
+					CommandLine="$(ConfigurationName)\gcov_iov.exe '4.2.1' '' &gt; gcov-iov.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Debug\gcov_iov.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\gcov-iov.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating gcov-iov.h"
+					CommandLine="$(ConfigurationName)\gcov_iov.exe '4.2.1' '' &gt; gcov-iov.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Release\gcov_iov.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\gcov-iov.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating gcov-iov.h"
+					CommandLine="$(ConfigurationName)\gcov_iov.exe '4.2.1' '' &gt; gcov-iov.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\MinSizeRel\gcov_iov.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\gcov-iov.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating gcov-iov.h"
+					CommandLine="$(ConfigurationName)\gcov_iov.exe '4.2.1' '' &gt; gcov-iov.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\RelWithDebInfo\gcov_iov.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\gcov-iov.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\optionlist.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating optionlist"
+					CommandLine="Q:\Kitware\gccxml\GCC\config_cmake\nawk.exe -f Q:/Kitware/gccxml/GCC/gcc/opt-gather.awk Q:/Kitware/gccxml/GCC/gcc/c.opt Q:/Kitware/gccxml/GCC/gcc/common.opt Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.opt Q:/Kitware/gccxml/GCC/gcc/config/i386/cygming.opt &gt; optionlist&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml\GCC\gcc\opt-gather.awk;Q:\Kitware\gccxml\GCC\gcc\c.opt;Q:\Kitware\gccxml\GCC\gcc\common.opt;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.opt;Q:\Kitware\gccxml\GCC\gcc\config\i386\cygming.opt;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\optionlist"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating optionlist"
+					CommandLine="Q:\Kitware\gccxml\GCC\config_cmake\nawk.exe -f Q:/Kitware/gccxml/GCC/gcc/opt-gather.awk Q:/Kitware/gccxml/GCC/gcc/c.opt Q:/Kitware/gccxml/GCC/gcc/common.opt Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.opt Q:/Kitware/gccxml/GCC/gcc/config/i386/cygming.opt &gt; optionlist&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml\GCC\gcc\opt-gather.awk;Q:\Kitware\gccxml\GCC\gcc\c.opt;Q:\Kitware\gccxml\GCC\gcc\common.opt;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.opt;Q:\Kitware\gccxml\GCC\gcc\config\i386\cygming.opt;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\optionlist"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating optionlist"
+					CommandLine="Q:\Kitware\gccxml\GCC\config_cmake\nawk.exe -f Q:/Kitware/gccxml/GCC/gcc/opt-gather.awk Q:/Kitware/gccxml/GCC/gcc/c.opt Q:/Kitware/gccxml/GCC/gcc/common.opt Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.opt Q:/Kitware/gccxml/GCC/gcc/config/i386/cygming.opt &gt; optionlist&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml\GCC\gcc\opt-gather.awk;Q:\Kitware\gccxml\GCC\gcc\c.opt;Q:\Kitware\gccxml\GCC\gcc\common.opt;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.opt;Q:\Kitware\gccxml\GCC\gcc\config\i386\cygming.opt;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\optionlist"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating optionlist"
+					CommandLine="Q:\Kitware\gccxml\GCC\config_cmake\nawk.exe -f Q:/Kitware/gccxml/GCC/gcc/opt-gather.awk Q:/Kitware/gccxml/GCC/gcc/c.opt Q:/Kitware/gccxml/GCC/gcc/common.opt Q:/Kitware/gccxml/GCC/gcc/config/i386/i386.opt Q:/Kitware/gccxml/GCC/gcc/config/i386/cygming.opt &gt; optionlist&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml\GCC\gcc\opt-gather.awk;Q:\Kitware\gccxml\GCC\gcc\c.opt;Q:\Kitware\gccxml\GCC\gcc\common.opt;Q:\Kitware\gccxml\GCC\gcc\config\i386\i386.opt;Q:\Kitware\gccxml\GCC\gcc\config\i386\cygming.opt;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\optionlist"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-conditions.md"
+					CommandLine="$(ConfigurationName)\gencondmd.exe &gt; Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Debug\gencondmd.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-conditions.md"
+					CommandLine="$(ConfigurationName)\gencondmd.exe &gt; Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Release\gencondmd.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-conditions.md"
+					CommandLine="$(ConfigurationName)\gencondmd.exe &gt; Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\MinSizeRel\gencondmd.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-conditions.md"
+					CommandLine="$(ConfigurationName)\gencondmd.exe &gt; Q:/Kitware/gccxml-build/GCC/gcc/insn-conditions.md&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\RelWithDebInfo\gencondmd.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-conditions.md"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

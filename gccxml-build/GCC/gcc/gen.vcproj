@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="gen"
+	ProjectGUID="{8B888087-5250-4A86-B517-6F85765FCCE7}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Q:\Kitware\gccxml-build\GCC\gcc\Debug"
+			IntermediateDirectory="gen.dir\Debug"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="Q:\Kitware\gccxml-build\GCC\gcc;Q:\Kitware\gccxml\GCC\gcc\config;Q:\Kitware\gccxml\GCC\gcc;Q:\Kitware\gccxml\GCC\libdecnumber;Q:\Kitware\gccxml\GCC\libcpp\include;Q:\Kitware\gccxml\GCC\include;"
+				AssemblerListingLocation="Debug/"
+				BasicRuntimeChecks="3"
+				CompileAs="1"
+				DebugInformationFormat="3"
+				ExceptionHandling="0"
+				InlineFunctionExpansion="0"
+				Optimization="0"
+				RuntimeLibrary="3"
+				WarningLevel="0"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;GENERATOR_FILE;ALMOST_STDC;IN_GCC;HAVE_CONFIG_H;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="Q:\Kitware\gccxml-build\GCC\gcc;Q:\Kitware\gccxml\GCC\gcc\config;Q:\Kitware\gccxml\GCC\gcc;Q:\Kitware\gccxml\GCC\libdecnumber;Q:\Kitware\gccxml\GCC\libcpp\include;Q:\Kitware\gccxml\GCC\include;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;GENERATOR_FILE;ALMOST_STDC;IN_GCC;HAVE_CONFIG_H;CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="Q:\Kitware\gccxml-build\GCC\gcc;Q:\Kitware\gccxml\GCC\gcc\config;Q:\Kitware\gccxml\GCC\gcc;Q:\Kitware\gccxml\GCC\libdecnumber;Q:\Kitware\gccxml\GCC\libcpp\include;Q:\Kitware\gccxml\GCC\include;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="Q:\Kitware\gccxml-build\GCC\gcc\Debug\gen.lib"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Q:\Kitware\gccxml-build\GCC\gcc\Release"
+			IntermediateDirectory="gen.dir\Release"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="Q:\Kitware\gccxml-build\GCC\gcc;Q:\Kitware\gccxml\GCC\gcc\config;Q:\Kitware\gccxml\GCC\gcc;Q:\Kitware\gccxml\GCC\libdecnumber;Q:\Kitware\gccxml\GCC\libcpp\include;Q:\Kitware\gccxml\GCC\include;"
+				AssemblerListingLocation="Release/"
+				CompileAs="1"
+				ExceptionHandling="0"
+				InlineFunctionExpansion="2"
+				Optimization="2"
+				RuntimeLibrary="2"
+				WarningLevel="0"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;GENERATOR_FILE;ALMOST_STDC;IN_GCC;HAVE_CONFIG_H;CMAKE_INTDIR=\&quot;Release\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="Q:\Kitware\gccxml-build\GCC\gcc;Q:\Kitware\gccxml\GCC\gcc\config;Q:\Kitware\gccxml\GCC\gcc;Q:\Kitware\gccxml\GCC\libdecnumber;Q:\Kitware\gccxml\GCC\libcpp\include;Q:\Kitware\gccxml\GCC\include;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;GENERATOR_FILE;ALMOST_STDC;IN_GCC;HAVE_CONFIG_H;CMAKE_INTDIR=\&quot;Release\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="Q:\Kitware\gccxml-build\GCC\gcc;Q:\Kitware\gccxml\GCC\gcc\config;Q:\Kitware\gccxml\GCC\gcc;Q:\Kitware\gccxml\GCC\libdecnumber;Q:\Kitware\gccxml\GCC\libcpp\include;Q:\Kitware\gccxml\GCC\include;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="Q:\Kitware\gccxml-build\GCC\gcc\Release\gen.lib"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			OutputDirectory="Q:\Kitware\gccxml-build\GCC\gcc\MinSizeRel"
+			IntermediateDirectory="gen.dir\MinSizeRel"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="Q:\Kitware\gccxml-build\GCC\gcc;Q:\Kitware\gccxml\GCC\gcc\config;Q:\Kitware\gccxml\GCC\gcc;Q:\Kitware\gccxml\GCC\libdecnumber;Q:\Kitware\gccxml\GCC\libcpp\include;Q:\Kitware\gccxml\GCC\include;"
+				AssemblerListingLocation="MinSizeRel/"
+				CompileAs="1"
+				ExceptionHandling="0"
+				InlineFunctionExpansion="1"
+				Optimization="1"
+				RuntimeLibrary="2"
+				WarningLevel="0"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;GENERATOR_FILE;ALMOST_STDC;IN_GCC;HAVE_CONFIG_H;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="Q:\Kitware\gccxml-build\GCC\gcc;Q:\Kitware\gccxml\GCC\gcc\config;Q:\Kitware\gccxml\GCC\gcc;Q:\Kitware\gccxml\GCC\libdecnumber;Q:\Kitware\gccxml\GCC\libcpp\include;Q:\Kitware\gccxml\GCC\include;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;GENERATOR_FILE;ALMOST_STDC;IN_GCC;HAVE_CONFIG_H;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="Q:\Kitware\gccxml-build\GCC\gcc;Q:\Kitware\gccxml\GCC\gcc\config;Q:\Kitware\gccxml\GCC\gcc;Q:\Kitware\gccxml\GCC\libdecnumber;Q:\Kitware\gccxml\GCC\libcpp\include;Q:\Kitware\gccxml\GCC\include;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="Q:\Kitware\gccxml-build\GCC\gcc\MinSizeRel\gen.lib"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			OutputDirectory="Q:\Kitware\gccxml-build\GCC\gcc\RelWithDebInfo"
+			IntermediateDirectory="gen.dir\RelWithDebInfo"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="Q:\Kitware\gccxml-build\GCC\gcc;Q:\Kitware\gccxml\GCC\gcc\config;Q:\Kitware\gccxml\GCC\gcc;Q:\Kitware\gccxml\GCC\libdecnumber;Q:\Kitware\gccxml\GCC\libcpp\include;Q:\Kitware\gccxml\GCC\include;"
+				AssemblerListingLocation="RelWithDebInfo/"
+				CompileAs="1"
+				DebugInformationFormat="3"
+				ExceptionHandling="0"
+				InlineFunctionExpansion="1"
+				Optimization="2"
+				RuntimeLibrary="2"
+				WarningLevel="0"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;GENERATOR_FILE;ALMOST_STDC;IN_GCC;HAVE_CONFIG_H;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="Q:\Kitware\gccxml-build\GCC\gcc;Q:\Kitware\gccxml\GCC\gcc\config;Q:\Kitware\gccxml\GCC\gcc;Q:\Kitware\gccxml\GCC\libdecnumber;Q:\Kitware\gccxml\GCC\libcpp\include;Q:\Kitware\gccxml\GCC\include;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;GENERATOR_FILE;ALMOST_STDC;IN_GCC;HAVE_CONFIG_H;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="Q:\Kitware\gccxml-build\GCC\gcc;Q:\Kitware\gccxml\GCC\gcc\config;Q:\Kitware\gccxml\GCC\gcc;Q:\Kitware\gccxml\GCC\libdecnumber;Q:\Kitware\gccxml\GCC\libcpp\include;Q:\Kitware\gccxml\GCC\include;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="Q:\Kitware\gccxml-build\GCC\gcc\RelWithDebInfo\gen.lib"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\CMakeLists.txt">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule Q:/Kitware/gccxml/GCC/gcc/CMakeLists.txt"
+					CommandLine="T:\CMake\bin\cmake.exe -HQ:/Kitware/gccxml -BQ:/Kitware/gccxml-build --check-stamp-file Q:\Kitware\gccxml-build\GCC\gcc\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml\GCC\gcc\CMakeLists.txt;Q:\Kitware\gccxml\GCC\config_cmake\gcc_make_config_h.cmake;Q:\Kitware\gccxml-build\GCC\config_cmake\gcc_platform.cmake;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gtyp-gen.h.in;Q:\Kitware\gccxml\GCC\gcc\CMakeLists.txt;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule Q:/Kitware/gccxml/GCC/gcc/CMakeLists.txt"
+					CommandLine="T:\CMake\bin\cmake.exe -HQ:/Kitware/gccxml -BQ:/Kitware/gccxml-build --check-stamp-file Q:\Kitware\gccxml-build\GCC\gcc\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml\GCC\gcc\CMakeLists.txt;Q:\Kitware\gccxml\GCC\config_cmake\gcc_make_config_h.cmake;Q:\Kitware\gccxml-build\GCC\config_cmake\gcc_platform.cmake;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gtyp-gen.h.in;Q:\Kitware\gccxml\GCC\gcc\CMakeLists.txt;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule Q:/Kitware/gccxml/GCC/gcc/CMakeLists.txt"
+					CommandLine="T:\CMake\bin\cmake.exe -HQ:/Kitware/gccxml -BQ:/Kitware/gccxml-build --check-stamp-file Q:\Kitware\gccxml-build\GCC\gcc\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml\GCC\gcc\CMakeLists.txt;Q:\Kitware\gccxml\GCC\config_cmake\gcc_make_config_h.cmake;Q:\Kitware\gccxml-build\GCC\config_cmake\gcc_platform.cmake;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gtyp-gen.h.in;Q:\Kitware\gccxml\GCC\gcc\CMakeLists.txt;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule Q:/Kitware/gccxml/GCC/gcc/CMakeLists.txt"
+					CommandLine="T:\CMake\bin\cmake.exe -HQ:/Kitware/gccxml -BQ:/Kitware/gccxml-build --check-stamp-file Q:\Kitware\gccxml-build\GCC\gcc\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml\GCC\gcc\CMakeLists.txt;Q:\Kitware\gccxml\GCC\config_cmake\gcc_make_config_h.cmake;Q:\Kitware\gccxml-build\GCC\config_cmake\gcc_platform.cmake;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gcc_config.h.in;Q:\Kitware\gccxml\GCC\config_cmake\gtyp-gen.h.in;Q:\Kitware\gccxml\GCC\gcc\CMakeLists.txt;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+			</File>
+		<Filter
+			Name="Source Files"
+			Filter="">
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\rtl.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\read-rtl.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\ggc-none.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\vec.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\gensupport.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\print-rtl.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml\GCC\gcc\errors.c">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\min-insn-modes.c">
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="">
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\insn-modes.h">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\tree-check.h">
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\gtype-desc.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="CMake Rules"
+			Filter="">
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\min-insn-modes.c.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating min-insn-modes.c"
+					CommandLine="$(ConfigurationName)\genmodes.exe -m &gt; min-insn-modes.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Debug\genmodes.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\min-insn-modes.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating min-insn-modes.c"
+					CommandLine="$(ConfigurationName)\genmodes.exe -m &gt; min-insn-modes.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Release\genmodes.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\min-insn-modes.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating min-insn-modes.c"
+					CommandLine="$(ConfigurationName)\genmodes.exe -m &gt; min-insn-modes.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\MinSizeRel\genmodes.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\min-insn-modes.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating min-insn-modes.c"
+					CommandLine="$(ConfigurationName)\genmodes.exe -m &gt; min-insn-modes.c&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\RelWithDebInfo\genmodes.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\min-insn-modes.c"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\insn-modes.h.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-modes.h"
+					CommandLine="$(ConfigurationName)\genmodes.exe -h &gt; insn-modes.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Debug\genmodes.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-modes.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-modes.h"
+					CommandLine="$(ConfigurationName)\genmodes.exe -h &gt; insn-modes.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Release\genmodes.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-modes.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-modes.h"
+					CommandLine="$(ConfigurationName)\genmodes.exe -h &gt; insn-modes.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\MinSizeRel\genmodes.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-modes.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating insn-modes.h"
+					CommandLine="$(ConfigurationName)\genmodes.exe -h &gt; insn-modes.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\RelWithDebInfo\genmodes.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\insn-modes.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\tree-check.h.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating tree-check.h"
+					CommandLine="$(ConfigurationName)\gencheck.exe &gt; tree-check.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Debug\gencheck.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\tree-check.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating tree-check.h"
+					CommandLine="$(ConfigurationName)\gencheck.exe &gt; tree-check.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Release\gencheck.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\tree-check.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating tree-check.h"
+					CommandLine="$(ConfigurationName)\gencheck.exe &gt; tree-check.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\MinSizeRel\gencheck.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\tree-check.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating tree-check.h"
+					CommandLine="$(ConfigurationName)\gencheck.exe &gt; tree-check.h&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\RelWithDebInfo\gencheck.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\tree-check.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Q:\Kitware\gccxml-build\GCC\gcc\gtype-desc.c.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating gtype-desc.c, gtype-desc.h"
+					CommandLine="$(ConfigurationName)\gengtype.exe&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Debug\gengtype.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\gtype-desc.c;Q:\Kitware\gccxml-build\GCC\gcc\gtype-desc.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating gtype-desc.c, gtype-desc.h"
+					CommandLine="$(ConfigurationName)\gengtype.exe&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\Release\gengtype.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\gtype-desc.c;Q:\Kitware\gccxml-build\GCC\gcc\gtype-desc.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating gtype-desc.c, gtype-desc.h"
+					CommandLine="$(ConfigurationName)\gengtype.exe&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\MinSizeRel\gengtype.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\gtype-desc.c;Q:\Kitware\gccxml-build\GCC\gcc\gtype-desc.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating gtype-desc.c, gtype-desc.h"
+					CommandLine="$(ConfigurationName)\gengtype.exe&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="Q:\Kitware\gccxml-build\GCC\gcc\RelWithDebInfo\gengtype.exe;"
+					Outputs="Q:\Kitware\gccxml-build\GCC\gcc\gtype-desc.c;Q:\Kitware\gccxml-build\GCC\gcc\gtype-desc.h"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

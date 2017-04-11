@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+Q:/Kitware/gccxml/GCC_XML/CMakeLists.txt
+Q:/Kitware/gccxml/GCC_XML/GXFront/gxConfigure.h.in
+T:/CMake/share/cmake-3.3/Modules/TestCXXAcceptsFlag.cmake
+Q:/Kitware/gccxml/GCC_XML/GXFront/config_build.in
+Q:/Kitware/gccxml/GCC_XML/GXFront/config_install.in

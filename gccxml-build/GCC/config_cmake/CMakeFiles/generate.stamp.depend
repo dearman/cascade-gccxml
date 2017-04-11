@@ -1,0 +1,16 @@
+# CMake generation dependency list for this directory.
+Q:/Kitware/gccxml/GCC/config_cmake/CMakeLists.txt
+T:/CMake/share/cmake-3.3/Modules/TestBigEndian.cmake
+T:/CMake/share/cmake-3.3/Modules/CheckIncludeFile.cmake
+T:/CMake/share/cmake-3.3/Modules/CheckFunctionExists.cmake
+T:/CMake/share/cmake-3.3/Modules/CheckVariableExists.cmake
+T:/CMake/share/cmake-3.3/Modules/CheckTypeSize.cmake
+T:/CMake/share/cmake-3.3/Modules/CheckIncludeFile.cmake
+T:/CMake/share/cmake-3.3/Modules/CheckIncludeFileCXX.cmake
+Q:/Kitware/gccxml/GCC/config_cmake/gcc_platform_win32.cmake
+Q:/Kitware/gccxml-build/GCC/config_cmake/gcc_platform.cmake
+Q:/Kitware/gccxml/GCC/config_cmake/dirent.h
+Q:/Kitware/gccxml/GCC/config_cmake/libiberty_config.h.in
+Q:/Kitware/gccxml/GCC/config_cmake/libdecnumber_config.h.in
+Q:/Kitware/gccxml/GCC/config_cmake/libcpp_config.h.in
+Q:/Kitware/gccxml/GCC/config_cmake/auto-host.h.in

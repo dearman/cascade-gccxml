@@ -1,0 +1,4 @@
+Q:/Kitware/gccxml-build/GCC/config_cmake/gcc_asm_tests/CMakeFiles/test_weak.dir
+Q:/Kitware/gccxml-build/GCC/config_cmake/gcc_asm_tests/CMakeFiles/ALL_BUILD.dir
+Q:/Kitware/gccxml-build/GCC/config_cmake/gcc_asm_tests/CMakeFiles/ZERO_CHECK.dir
+Q:/Kitware/gccxml-build/GCC/config_cmake/gcc_asm_tests/CMakeFiles/test_weakref.dir

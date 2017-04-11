@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+Q:/Kitware/gccxml/GCC/config_cmake/gcc_asm_tests/CMakeLists.txt
+Q:/Kitware/gccxml-build/CMakeFiles/3.3.1/CMakeSystem.cmake
+T:/CMake/share/cmake-3.3/Modules/CMakeSystemSpecificInitialize.cmake
+Q:/Kitware/gccxml-build/CMakeFiles/3.3.1/CMakeCCompiler.cmake
+T:/CMake/share/cmake-3.3/Modules/CMakeSystemSpecificInformation.cmake
+T:/CMake/share/cmake-3.3/Modules/CMakeGenericSystem.cmake
+T:/CMake/share/cmake-3.3/Modules/Platform/Windows.cmake
+T:/CMake/share/cmake-3.3/Modules/Platform/WindowsPaths.cmake
+T:/CMake/share/cmake-3.3/Modules/CMakeCInformation.cmake
+T:/CMake/share/cmake-3.3/Modules/Platform/Windows-MSVC-C.cmake
+T:/CMake/share/cmake-3.3/Modules/Platform/Windows-MSVC.cmake
+Q:/Kitware/gccxml-build/CMakeFiles/3.3.1/CMakeRCCompiler.cmake
+T:/CMake/share/cmake-3.3/Modules/CMakeRCInformation.cmake
+T:/CMake/share/cmake-3.3/Modules/CMakeCommonLanguageInclude.cmake
